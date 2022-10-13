@@ -21,7 +21,7 @@ RUN \
 RUN \
   mkdir -p /var/www/nexus && \
   mkdir /config && \
-  wget -q https://github.com/immense/Nexus/releases/latest/download/Nexus_Server_Linux-x64.zip && \
+  wget -q https://github.com/nexitpl/Nexus/releases/latest/download/Nexus_Server_Linux-x64.zip && \
   unzip -o Nexus_Server_Linux-x64.zip -d /var/www/nexus && \
   rm Nexus_Server_Linux-x64.zip
 

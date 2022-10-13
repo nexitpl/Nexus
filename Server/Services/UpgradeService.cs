@@ -32,7 +32,7 @@ namespace Nexus.Server.Services
             try
             {
                 using var client = _httpClientFactory.CreateClient();
-                var response = await client.GetAsync("https://github.com/immense/Nexus/releases/latest");
+                var response = await client.GetAsync("https://github.com/nexitpl/Nexus/releases/latest");
                 var versionString = response.RequestMessage.RequestUri.ToString().Split("/").Last()[1..];
                 var remoteVersion = Version.Parse(versionString);
                 var filePath = Directory.GetFiles(Directory.GetCurrentDirectory(), "Nexus_Server.dll", SearchOption.AllDirectories).First();

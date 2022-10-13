@@ -2,12 +2,12 @@
 A remote control and remote scripting solution, built with .NET 6, Blazor, SignalR Core, and WebRTC.
 
 [![Build Status](https://dev.azure.com/translucency/Nexus/_apis/build/status/Nexus-ReleaseBuild?branchName=master)](https://dev.azure.com/translucency/Nexus/_build/latest?definitionId=17&branchName=master)
-![GitHub Build](https://github.com/immense/Nexus/workflows/GitHub%20Build/badge.svg)
+![GitHub Build](https://github.com/nexitpl/Nexus/workflows/GitHub%20Build/badge.svg)
 
 
 # Status 
 ## 2022-05-19
-Immense Networks is the proud new owner of Nexus. We intend to keep Nexus fully open-source.
+nexitpl Networks is the proud new owner of Nexus. We intend to keep Nexus fully open-source.
 
 I (Darren Kattan) had followed this project since the moment Jared shared it on r/msp years ago. While Jared was writing Nexus, we were writing our own tool for MSPs called ImmyBot, primarily focused on automation and software deployment. Jared and I had similar goals and he felt that we would be good custodians of the project. 
 
@@ -41,7 +41,7 @@ However, you can also choose to install the pre-built packages that do not have 
 ## Installation Instructions:
 - Before attempting installation, verify that your domain name is resolving to your server's IP address.
   - For example, I can use the command `ping nexus.lucency.co` and see the IP address to which it resolves.
-- Find and download the `Nexus_Server_Installer[.exe]` CLI tool for the latest release on the [Releases page](https://github.com/immense/Nexus/releases).
+- Find and download the `Nexus_Server_Installer[.exe]` CLI tool for the latest release on the [Releases page](https://github.com/nexitpl/Nexus/releases).
   - You will run it on the server where you'll be hosting Nexus.
   - You need to run it with elevation (e.g. sudo or "Run as admin").
   - Use `--help` argument to see all the command line arguments.
@@ -56,7 +56,7 @@ However, you can also choose to install the pre-built packages that do not have 
 	```
 	git clone git@github.com:{your-username}/nexus
 	cd ./nexus
-	git remote add upstream https://github.com/immense/Nexus
+	git remote add upstream https://github.com/nexitpl/Nexus
 	git pull upstream master
 	git push origin master
 	```
@@ -122,7 +122,7 @@ The following steps will configure your Windows 10 machine for building the Nexu
     * Link: https://git-scm.com/downloads
 * Install the latest LTS Node:
 	* Link: https://nodejs.org/
-* Clone the git repository: `git clone https://github.com/immense/Nexus`
+* Clone the git repository: `git clone https://github.com/nexitpl/Nexus`
 * When debugging, the agent will use a pre-defined device ID and connect to https://localhost:5001.
 * In development environment, the server will assign all connecting agents to the first organization.
 * The above two allow you to debug the agent and server together, and see your device in the list.

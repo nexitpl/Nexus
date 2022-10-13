@@ -241,7 +241,7 @@ namespace Nexus.Desktop.XPlat.ViewModels
                 (serverUri.Scheme != Uri.UriSchemeHttp && serverUri.Scheme != Uri.UriSchemeHttps))
             {
                 Logger.Write("Server URL is not valid.");
-                await MessageBox.Show("Server URL must be a valid Uri (e.g. https://app.nexus.one).", "Invalid Server URL", MessageBoxType.OK);
+                await MessageBox.Show("Server URL must be a valid Uri (e.g. https://remote.nex-it.pl).", "Invalid Server URL", MessageBoxType.OK);
                 return;
             }
 
